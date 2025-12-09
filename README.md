@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=for-the-badge)]([YOUR_STREAMLIT_LINK_HERE](https://mediscribe-ai-physician-notetaker-navneet-shukla.streamlit.app/))
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=for-the-badge)](https://mediscribe-ai-physician-notetaker-navneet-shukla.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 **An advanced AI system for medical transcription, NLP-based summarization, sentiment analysis, and automated SOAP note generation.**
 
-🚀[Live Demo](YOUR_STREAMLIT_LINK_HERE) • [Documentation](#-documentation) • [Features](#-key-features) • [Installation](#-installation)
+🚀[Live Demo](https://mediscribe-ai-physician-notetaker-navneet-shukla.streamlit.app/) • [Documentation](#-documentation) • [Features](#-key-features) • [Installation](#-installation)
 
 <img src="https://raw.githubusercontent.com/yourusername/physician-notetaker/main/assets/demo.gif" alt="Demo" width="800"/>
 
