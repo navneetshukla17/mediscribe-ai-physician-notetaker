@@ -1,0 +1,152 @@
+{
+  "Overall_Analysis": {
+    "Dominant_Sentiment": "Neutral",
+    "Sentiment_Confidence": 0.5,
+    "Dominant_Intent": "seeking reassurance",
+    "Sentiment_Distribution": {
+      "Neutral": 12
+    },
+    "Intent_Distribution": {
+      "reporting symptoms": 3,
+      "describing timeline": 1,
+      "providing information": 1,
+      "seeking reassurance": 6,
+      "expressing gratitude": 1
+    }
+  },
+  "All_Patient_Analyses": [
+    {
+      "statement": "Good morning, doctor. I'm doing better, but I still have some discomfort now and then.",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "reporting symptoms",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [
+        "better",
+        "good"
+      ],
+      "intent_reasoning": "The patient is reporting ongoing discomfort, even though they are feeling better overall."
+    },
+    {
+      "statement": "Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowh...",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "describing timeline",
+      "intent_confidence": 0.95,
+      "emotional_indicators": [],
+      "intent_reasoning": "The patient explicitly states a date and time, and then describes a sequence of events that occurred."
+    },
+    {
+      "statement": "Yes, I always do.",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "providing information",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [],
+      "intent_reasoning": "The patient is directly answering a question and confirming a habitual action, thus providing information."
+    },
+    {
+      "statement": "At first, I was just shocked. But then I realized I had hit my head on the steering wheel, and I could feel pain in my neck and back almost right away...",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "reporting symptoms",
+      "intent_confidence": 0.95,
+      "emotional_indicators": [
+        "pain"
+      ],
+      "intent_reasoning": "The patient explicitly describes physical sensations of pain in their neck and back, which are clear symptoms."
+    },
+    {
+      "statement": "Yes, I went to Moss Bank Accident and Emergency. They checked me over and said it was a whiplash injury, but they didn't do any X-rays. They just gave...",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "seeking reassurance",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [],
+      "intent_reasoning": "The patient is recounting their experience at A&E and the diagnosis, implying they are seeking validation or confirmation that this is the correct course of action."
+    },
+    {
+      "statement": "The first four weeks were rough. My neck and back pain were really bad—I had trouble sleeping and had to take painkillers regularly. It started improv...",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "reporting symptoms",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [
+        "bad",
+        "pain"
+      ],
+      "intent_reasoning": "The patient details specific physical ailments and their severity, along with associated difficulties."
+    },
+    {
+      "statement": "It's not constant, but I do get occasional backaches. It's nothing like before, though.",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "seeking reassurance",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [],
+      "intent_reasoning": "The patient is downplaying the severity of their current symptoms by comparing them to a past, presumably worse, experience, implying they are seeking confirmation that their current state is not as bad."
+    },
+    {
+      "statement": "No, nothing like that. I don't feel nervous driving, and I haven't had any emotional issues from the accident.",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "seeking reassurance",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [
+        "nervous"
+      ],
+      "intent_reasoning": "The patient is explicitly denying negative emotional states and driving anxiety, which suggests they are trying to assure the listener that they are doing well."
+    },
+    {
+      "statement": "I had to take a week off work, but after that, I was back to my usual routine. It hasn't really stopped me from doing anything.",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "seeking reassurance",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [
+        "usual"
+      ],
+      "intent_reasoning": "The patient is stating they are back to their usual routine and not stopped from doing anything, implying they are seeking confirmation that this is a positive outcome."
+    },
+    {
+      "statement": "That's a relief!",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "seeking reassurance",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [
+        "relief"
+      ],
+      "intent_reasoning": "The phrase 'That's a relief!' directly indicates the patient is feeling better or less worried about something, which is a form of seeking or acknowledging reassurance."
+    },
+    {
+      "statement": "That's great to hear. So, I don't need to worry about this affecting me in the future?",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "seeking reassurance",
+      "intent_confidence": 0.85,
+      "emotional_indicators": [
+        "great"
+      ],
+      "intent_reasoning": "The patient explicitly asks if they need to worry, indicating a desire for reassurance about future impact."
+    },
+    {
+      "statement": "Thank you, doctor. I appreciate it.",
+      "sentiment": "Neutral",
+      "sentiment_confidence": 0.5,
+      "intent": "expressing gratitude",
+      "intent_confidence": 0.99,
+      "emotional_indicators": [
+        "appreciate"
+      ],
+      "intent_reasoning": "The patient explicitly uses the phrase 'Thank you, doctor. I appreciate it,' which directly indicates gratitude."
+    }
+  ],
+  "Example_Analysis": {
+    "Statement": "Good morning, doctor. I'm doing better, but I still have some discomfort now and then.",
+    "Sentiment": "Neutral",
+    "Sentiment_Confidence": 0.5,
+    "Intent": "reporting symptoms",
+    "Intent_Confidence": 0.85
+  }
+}

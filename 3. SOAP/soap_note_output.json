@@ -1,0 +1,24 @@
+{
+  "Subjective": {
+    "Chief_Complaint": "Occasional discomfort following a motor vehicle accident.",
+    "History_of_Present_Illness": "Patient reports being involved in a motor vehicle accident on September 1st, around 12:30 PM. She was stopped in traffic when her vehicle was rear-ended, pushing her into the car in front. She was wearing her seatbelt. Immediately after the accident, she experienced shock and pain in her neck and back, hitting her head on the steering wheel. She sought medical attention at Moss Bank Accident and Emergency, where she was diagnosed with whiplash. She did not have X-rays. The first four weeks post-accident were difficult with significant neck and back pain, impacting her sleep and requiring regular painkillers. She underwent ten physiotherapy sessions which helped with stiffness and discomfort. Currently, she experiences occasional backaches, which are not constant and significantly less severe than before. She denies any anxiety while driving or difficulty concentrating. The accident required her to take one week off work, but she has since returned to her usual routine and has not been significantly limited in her daily activities or hobbies.",
+    "Past_Medical_History": "Motor vehicle accident in September (current complaint).",
+    "Patient_Concerns": "Patient inquired if she needs to worry about the injury affecting her in the future and if there will be any long-term impact on her work or daily life."
+  },
+  "Objective": {
+    "Physical_Exam": "Full range of motion in neck and back. No tenderness noted. No signs of lasting damage. Muscles and spine appear to be in good condition.",
+    "Observations": "Patient appears to be in good spirits and relieved by the examination findings.",
+    "Vital_Signs": "Not mentioned in transcript."
+  },
+  "Assessment": {
+    "Diagnosis": "Whiplash injury, status post motor vehicle accident.",
+    "Severity": "Mild, with significant improvement and resolution of acute symptoms.",
+    "Prognosis": "Excellent. Expected full recovery within six months of the accident. No signs of long-term damage or degeneration anticipated."
+  },
+  "Plan": {
+    "Treatment": "No specific new treatments recommended at this time due to positive progress.",
+    "Medications": "None prescribed or mentioned.",
+    "Follow-Up": "Return for follow-up if symptoms worsen or change. Otherwise, no scheduled follow-up.",
+    "Patient_Education": "Reassured patient regarding the positive recovery trajectory and lack of anticipated long-term impact. Advised to return if any changes or worsening of symptoms occur."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Patient_Name": "Ms. Jones",
+  "Symptoms": [
+    "Mild discomfort (duration: now and then, status: improving)",
+    "Severe pain in neck and back (duration: first four weeks, status: improving)",
+    "Moderate trouble sleeping (duration: first four weeks, status: improving)",
+    "Moderate stiffness (status: improving)",
+    "Mild backaches in back (duration: occasional)"
+  ],
+  "Diagnosis": "whiplash injury",
+  "Treatment": [
+    "Medication: painkillers regularly",
+    "Physiotherapy: ten sessions"
+  ],
+  "Current_Status": "Patient is doing better, with occasional mild backaches, and has made a positive recovery.",
+  "Prognosis": "Expected to make a full recovery within six months of the accident, with no signs of long-term damage or degeneration."
+}

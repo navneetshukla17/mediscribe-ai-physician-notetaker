@@ -1,0 +1,7 @@
+{
+  "Statement": "I'm a bit worried about my back pain, but I hope it gets better soon.",
+  "Sentiment": "Neutral",
+  "Sentiment_Confidence": 0.5,
+  "Intent": "seeking reassurance",
+  "Intent_Confidence": 0.85
+}

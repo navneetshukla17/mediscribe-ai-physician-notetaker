@@ -1,0 +1,459 @@
+{
+  "basic_extraction": {
+    "Patient_Name": "Ms. Jones",
+    "Symptoms": [
+      {
+        "symptom": "discomfort",
+        "severity": "mild",
+        "duration": "now and then",
+        "body_part": null,
+        "status": "improving"
+      },
+      {
+        "symptom": "pain",
+        "severity": "severe",
+        "duration": "first four weeks",
+        "body_part": "neck and back",
+        "status": "improving"
+      },
+      {
+        "symptom": "trouble sleeping",
+        "severity": null,
+        "duration": "first four weeks",
+        "body_part": null,
+        "status": "improving"
+      },
+      {
+        "symptom": "stiffness",
+        "severity": null,
+        "duration": null,
+        "body_part": null,
+        "status": "improving"
+      },
+      {
+        "symptom": "backaches",
+        "severity": "mild",
+        "duration": "occasional",
+        "body_part": "back",
+        "status": "improving"
+      }
+    ],
+    "Diagnosis": "whiplash injury",
+    "Treatment": [
+      {
+        "treatment_type": "medication",
+        "details": "painkillers regularly",
+        "provider": null
+      },
+      {
+        "treatment_type": "physiotherapy",
+        "details": "ten sessions",
+        "provider": null
+      }
+    ],
+    "Current_Status": "Doing better, occasional backaches, not constant. No anxiety while driving or emotional issues. No impact on daily life or hobbies after the first week off work.",
+    "Prognosis": "Expected to make a full recovery within six months of the accident. No signs of long-term damage or degeneration. No long-term impact on work or daily life foreseen.",
+    "Accident_Details": {
+      "date": "September 1st",
+      "location": null,
+      "mechanism": "hit me from behind, which pushed my car into the one in front",
+      "immediate_impact": "hit my head on the steering wheel, pain in my neck and back"
+    },
+    "Physical_Examination": {
+      "findings": [
+        "neck and back have a full range of movement",
+        "no tenderness",
+        "no signs of lasting damage",
+        "muscles and spine seem to be in good condition"
+      ],
+      "mobility": "full range of movement in neck and back",
+      "tenderness": "no tenderness"
+    },
+    "Timeline": [
+      {
+        "event": "car accident",
+        "timepoint": "September 1st, around 12:30 in the afternoon",
+        "significance": "occurred while driving from Cheadle Hulme to Manchester"
+      },
+      {
+        "event": "sought medical attention",
+        "timepoint": "immediately after the accident",
+        "significance": "went to Moss Bank Accident and Emergency, diagnosed with whiplash injury"
+      },
+      {
+        "event": "rough period with pain",
+        "timepoint": "first four weeks after the accident",
+        "significance": "neck and back pain were really bad, trouble sleeping, took painkillers regularly"
+      },
+      {
+        "event": "started improving",
+        "timepoint": "after the first four weeks",
+        "significance": "pain began to improve"
+      },
+      {
+        "event": "physiotherapy sessions",
+        "timepoint": "after the first four weeks",
+        "significance": "ten sessions to help with stiffness and discomfort"
+      },
+      {
+        "event": "took time off work",
+        "timepoint": "one week after the accident",
+        "significance": "returned to usual routine after that week"
+      },
+      {
+        "event": "physician's assessment",
+        "timepoint": "current visit",
+        "significance": "physical examination showed good recovery, no signs of long-term damage"
+      }
+    ]
+  },
+  "confidence_scored": {
+    "Patient_Name": {
+      "value": "Ms. Jones",
+      "confidence": 0.95,
+      "source": "explicitly stated"
+    },
+    "Medical_Condition": [
+      {
+        "condition": "whiplash injury",
+        "confidence": 1.0,
+        "evidence": "They checked me over and said it was a whiplash injury"
+      }
+    ],
+    "Symptoms": [
+      {
+        "symptom": "discomfort",
+        "confidence": 0.9,
+        "evidence": "I'm doing better, but I still have some discomfort now and then."
+      },
+      {
+        "symptom": "head hit on steering wheel",
+        "confidence": 1.0,
+        "evidence": "I realized I had hit my head on the steering wheel"
+      },
+      {
+        "symptom": "neck pain",
+        "confidence": 1.0,
+        "evidence": "I could feel pain in my neck and back almost right away."
+      },
+      {
+        "symptom": "back pain",
+        "confidence": 1.0,
+        "evidence": "I could feel pain in my neck and back almost right away."
+      },
+      {
+        "symptom": "trouble sleeping",
+        "confidence": 0.9,
+        "evidence": "My neck and back pain were really bad—I had trouble sleeping"
+      },
+      {
+        "symptom": "stiffness",
+        "confidence": 0.9,
+        "evidence": "physiotherapy to help with the stiffness and discomfort."
+      },
+      {
+        "symptom": "occasional backaches",
+        "confidence": 0.9,
+        "evidence": "I do get occasional backaches."
+      }
+    ],
+    "Past_Medical_History": [
+      {
+        "event": "car accident",
+        "date": "September 1st",
+        "time": "around 12:30 in the afternoon",
+        "confidence": 1.0,
+        "evidence": "I understand you were in a car accident last September. Can you walk me through what happened? Yes, it was on September 1st, around 12:30 in the afternoon."
+      }
+    ],
+    "Treatment": [
+      {
+        "treatment": "painkillers",
+        "confidence": 0.9,
+        "evidence": "I had to take painkillers regularly."
+      },
+      {
+        "treatment": "physiotherapy",
+        "duration": "ten sessions",
+        "confidence": 1.0,
+        "evidence": "I had to go through ten sessions of physiotherapy"
+      }
+    ],
+    "Diagnostic_Procedures": [
+      {
+        "procedure": "X-rays",
+        "result": "not performed",
+        "confidence": 1.0,
+        "evidence": "They didn't do any X-rays."
+      }
+    ],
+    "Prognosis": {
+      "prognosis": "full recovery",
+      "timeline": "within six months of the accident",
+      "confidence": 0.9,
+      "evidence": "I'd expect you to make a full recovery within six months of the accident."
+    },
+    "Physical_Examination_Findings": [
+      {
+        "finding": "full range of movement in neck",
+        "confidence": 1.0,
+        "evidence": "Your neck and back have a full range of movement"
+      },
+      {
+        "finding": "full range of movement in back",
+        "confidence": 1.0,
+        "evidence": "Your neck and back have a full range of movement"
+      },
+      {
+        "finding": "no tenderness",
+        "confidence": 1.0,
+        "evidence": "there's no tenderness or signs of lasting damage."
+      },
+      {
+        "finding": "no signs of lasting damage",
+        "confidence": 1.0,
+        "evidence": "there's no tenderness or signs of lasting damage."
+      },
+      {
+        "finding": "muscles in good condition",
+        "confidence": 1.0,
+        "evidence": "Your muscles and spine seem to be in good condition."
+      },
+      {
+        "finding": "spine in good condition",
+        "confidence": 1.0,
+        "evidence": "Your muscles and spine seem to be in good condition."
+      }
+    ],
+    "Impact_on_Daily_Life": {
+      "work_absence": "one week",
+      "confidence": 1.0,
+      "evidence": "I had to take a week off work"
+    },
+    "Absence_of_Other_Symptoms": [
+      {
+        "symptom": "anxiety while driving",
+        "status": "absent",
+        "confidence": 1.0,
+        "evidence": "No, nothing like that. I don't feel nervous driving"
+      },
+      {
+        "symptom": "difficulty concentrating",
+        "status": "absent",
+        "confidence": 1.0,
+        "evidence": "No, nothing like that."
+      },
+      {
+        "symptom": "emotional issues from accident",
+        "status": "absent",
+        "confidence": 1.0,
+        "evidence": "and I haven't had any emotional issues from the accident."
+      }
+    ],
+    "Long_Term_Outlook": {
+      "long_term_damage": "none foreseen",
+      "confidence": 0.9,
+      "evidence": "There are no signs of long-term damage or degeneration. I don't foresee any long-term impact on your work or daily life."
+    }
+  },
+  "keywords": {
+    "keywords": [
+      {
+        "term": "discomfort",
+        "category": "symptom",
+        "importance": "medium",
+        "context": "patient states 'still have some discomfort now and then'"
+      },
+      {
+        "term": "car accident",
+        "category": "event",
+        "importance": "high",
+        "context": "incident that led to patient's injuries"
+      },
+      {
+        "term": "impact",
+        "category": "event",
+        "importance": "high",
+        "context": "describes the force of the collision"
+      },
+      {
+        "term": "shocked",
+        "category": "symptom",
+        "importance": "low",
+        "context": "initial reaction after the accident"
+      },
+      {
+        "term": "hit my head",
+        "category": "body_part",
+        "importance": "high",
+        "context": "patient hit head on steering wheel"
+      },
+      {
+        "term": "pain",
+        "category": "symptom",
+        "importance": "high",
+        "context": "experienced in neck and back"
+      },
+      {
+        "term": "neck",
+        "category": "body_part",
+        "importance": "high",
+        "context": "area of reported pain"
+      },
+      {
+        "term": "back",
+        "category": "body_part",
+        "importance": "high",
+        "context": "area of reported pain"
+      },
+      {
+        "term": "medical attention",
+        "category": "event",
+        "importance": "high",
+        "context": "sought after the accident"
+      },
+      {
+        "term": "Accident and Emergency",
+        "category": "event",
+        "importance": "high",
+        "context": "facility where patient initially sought care"
+      },
+      {
+        "term": "whiplash injury",
+        "category": "diagnosis",
+        "importance": "high",
+        "context": "diagnosis given at A&E"
+      },
+      {
+        "term": "X-rays",
+        "category": "treatment",
+        "importance": "medium",
+        "context": "diagnostic imaging not performed initially"
+      },
+      {
+        "term": "painkillers",
+        "category": "treatment",
+        "importance": "high",
+        "context": "medication taken for pain"
+      },
+      {
+        "term": "physiotherapy",
+        "category": "treatment",
+        "importance": "high",
+        "context": "10 sessions undertaken"
+      },
+      {
+        "term": "stiffness",
+        "category": "symptom",
+        "importance": "medium",
+        "context": "addressed by physiotherapy"
+      },
+      {
+        "term": "backaches",
+        "category": "symptom",
+        "importance": "medium",
+        "context": "occasional symptom experienced"
+      },
+      {
+        "term": "anxiety",
+        "category": "symptom",
+        "importance": "low",
+        "context": "ruled out as an effect"
+      },
+      {
+        "term": "difficulty concentrating",
+        "category": "symptom",
+        "importance": "low",
+        "context": "ruled out as an effect"
+      },
+      {
+        "term": "emotional issues",
+        "category": "symptom",
+        "importance": "low",
+        "context": "ruled out as an effect"
+      },
+      {
+        "term": "physical examination",
+        "category": "treatment",
+        "importance": "high",
+        "context": "conducted to assess mobility and pain"
+      },
+      {
+        "term": "mobility",
+        "category": "outcome",
+        "importance": "high",
+        "context": "assessed during physical exam"
+      },
+      {
+        "term": "tenderness",
+        "category": "symptom",
+        "importance": "low",
+        "context": "not found during examination"
+      },
+      {
+        "term": "lasting damage",
+        "category": "outcome",
+        "importance": "high",
+        "context": "signs of were absent"
+      },
+      {
+        "term": "muscles",
+        "category": "body_part",
+        "importance": "medium",
+        "context": "assessed during examination"
+      },
+      {
+        "term": "spine",
+        "category": "body_part",
+        "importance": "medium",
+        "context": "assessed during examination"
+      },
+      {
+        "term": "recovery",
+        "category": "outcome",
+        "importance": "high",
+        "context": "described as positive and on track for full recovery"
+      },
+      {
+        "term": "full recovery",
+        "category": "outcome",
+        "importance": "high",
+        "context": "expected within six months"
+      },
+      {
+        "term": "long-term damage",
+        "category": "outcome",
+        "importance": "high",
+        "context": "no signs of"
+      },
+      {
+        "term": "degeneration",
+        "category": "outcome",
+        "importance": "high",
+        "context": "no signs of"
+      },
+      {
+        "term": "long-term impact",
+        "category": "outcome",
+        "importance": "high",
+        "context": "not foreseen"
+      },
+      {
+        "term": "worsening symptoms",
+        "category": "symptom",
+        "importance": "medium",
+        "context": "reason for follow-up"
+      },
+      {
+        "term": "follow-up",
+        "category": "event",
+        "importance": "medium",
+        "context": "offered if symptoms change"
+      }
+    ]
+  },
+  "metadata": {
+    "extraction_method": "Generative Model",
+    "model_version": "Gemini-2.5-flash-lite"
+  }
+}
