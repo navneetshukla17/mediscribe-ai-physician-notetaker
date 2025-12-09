@@ -9,7 +9,7 @@
 
 **An advanced AI system for medical transcription, NLP-based summarization, sentiment analysis, and automated SOAP note generation.**
 
-[Live Demo](YOUR_STREAMLIT_LINK_HERE) • [Documentation](#-documentation) • [Features](#-key-features) • [Installation](#-installation)
+🚀[Live Demo](YOUR_STREAMLIT_LINK_HERE) • [Documentation](#-documentation) • [Features](#-key-features) • [Installation](#-installation)
 
 <img src="https://raw.githubusercontent.com/yourusername/physician-notetaker/main/assets/demo.gif" alt="Demo" width="800"/>
 
