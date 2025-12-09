@@ -1,4 +1,4 @@
-# 🩺 Physician Notetaker - AI-Powered Medical Documentation System
+# 🩺 Physician Notetaker - AI-Powered Medical Documentation System for Emitrr
 
 <div align="center">
 
